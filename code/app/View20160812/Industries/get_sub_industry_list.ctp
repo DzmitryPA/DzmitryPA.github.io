@@ -1,0 +1,1 @@
+<?php echo $this->Form->select('User.subindustry_id', $subIndustryList, array('empty' => 'Subcategory of Industry', 'class' => "form_secinpurs required")); ?>

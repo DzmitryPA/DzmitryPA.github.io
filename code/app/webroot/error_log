@@ -1,0 +1,6 @@
+[16-Aug-2016 11:14:57 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/imagetowebpage/public_html/demo/stafir/app/Controller/UsersController.php on line 146
+[17-Aug-2016 07:19:11 US/Central] PHP Warning:  POST Content-Length of 11475730 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Aug-2016 08:32:41 US/Central] PHP Warning:  POST Content-Length of 9130287 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Sep-2016 10:38:26 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ''c' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/imagetowebpage/public_html/demo/stafir/app/Controller/CategoriesController.php on line 269
+[07-Sep-2016 13:17:31 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/imagetowebpage/public_html/demo/stafir/app/Controller/ProductsController.php on line 147
+[08-Sep-2016 14:24:24 US/Central] PHP Warning:  POST Content-Length of 9509887 bytes exceeds the limit of 8388608 bytes in Unknown on line 0

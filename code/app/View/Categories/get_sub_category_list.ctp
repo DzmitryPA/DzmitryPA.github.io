@@ -1,0 +1,1 @@
+<?php echo $this->Form->select($model.'.subcategory_id', $subCategoryList, array('empty' => 'Select Sub Category', 'class' => $class . " required")); ?>

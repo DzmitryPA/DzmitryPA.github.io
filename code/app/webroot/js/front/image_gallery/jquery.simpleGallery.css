@@ -1,0 +1,9 @@
+/* CSS Document */
+.simpleLens-thumbnails-container a{
+    display: inline-block;
+    width:25%; padding: 5px; float:left; text-align: center;
+}
+.simpleLens-thumbnails-container a img{
+    display: block; border-radius:3px; border: solid 1px #d4d4d4; 
+}
+.simpleLens-thumbnails-container{max-width:none; margin: 0 -5px; margin-top: 5px;}

@@ -1,0 +1,1 @@
+<?php echo $this->Form->select($model.'.subindustry_id', $subIndustryList, array('empty' => 'Subcategory of Industry', 'class' => $class . " required")); ?>

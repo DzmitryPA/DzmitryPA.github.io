@@ -1,0 +1,1 @@
+<?php echo $this->Form->select($model.'.city_id', $cityList, array('empty' => 'Select City', 'class' => $class . " required" )); ?>

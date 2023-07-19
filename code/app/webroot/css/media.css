@@ -1,0 +1,57 @@
+
+@media screen and (max-width:1150px)
+{
+     .dtpickr_dv {
+    width: 19%;
+}
+.dtpickr_inputs .admin_asearch{padding-left: 0;}
+.dvdrpdd{width:85% !important;}
+}
+@media screen and (max-width:992px)
+{
+    .dtpickr_dv {
+    width: 17%;
+}
+.popup_fomr_rosdfs_col{width: 48%;}
+.cols_two_sksss{float:left; width: 100%;}
+.popup_fomr_rosdfs_left{    margin-right: -15px;}
+.dvdrpdd{width:85% !important;}
+.dvdrpdd .admin_asearch{    clear: both;
+    display: block;
+    padding-left: 0;}
+.drpdwn_srch{width:42%;}
+}
+@media screen and (max-width:850px)
+{
+    .add_new_record{position: initial;}
+    .dtpickr_dv {
+    width: 27%;
+}
+.popup_fomr_rosdfs_left{    margin-right: -10px;}
+
+   
+}
+@media screen and (max-width:767px)
+{
+   .popup_fomr_rosdfs_left{    margin-right: -15px;}
+}
+@media screen and (max-width:567px)
+{
+    table .btn{margin-bottom: 1px;}
+}
+@media screen and (max-width:479px)
+{
+    .hint{width:100%;}
+       .dtpickr_dv {
+    width: 49%;
+}
+.admin_asearch{padding-left: 0;}
+
+}
+
+@media screen and (max-width:320px)
+{
+    .hint{width:100%;}
+    .admin_asearch{padding-left: 0; padding-right: 0;}
+    
+}

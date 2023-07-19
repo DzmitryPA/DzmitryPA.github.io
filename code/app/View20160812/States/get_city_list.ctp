@@ -1,0 +1,1 @@
+<?php echo $this->Form->select('User.city_id', $cityList, array('empty' => 'Select City', 'class' => "form_secinpurs required")); ?>

@@ -1,0 +1,69 @@
+
+
+.progress-bar-cusomes {
+  position: relative;
+  height: 100px;
+  width: 100px;  margin:auto;margin-top:20px;
+}
+
+.progress-bar-cusomes div {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.progress-bar-cusomes div span {
+    position: absolute;
+    font-size: 30px;
+    line-height: 82px;
+    height: 82px;
+    width: 82px;
+    left: 9px;
+    top: 9px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white; color:#303030;font-family:'Open Sans';
+}
+
+.progress-bar-cusomes .background { background-color: #b3cef6; }
+
+.progress-bar-cusomes .rotate {
+  clip: rect(0 50px 100px 0);
+  background-color: #90d44c;
+}
+
+.progress-bar-cusomes .left {
+  clip: rect(0 50px 100px 0);
+  opacity: 1;
+  background-color: #4dad10;
+}
+
+.progress-bar-cusomes .right {
+  clip: rect(0 50px 100px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #90d44c;
+}
+
+#progress-bar_unpaid .right,
+#progress-bar_unpaid .rotate{background-color: #f46554 !important;}
+#progress-bar_canceled .right,
+#progress-bar_canceled .rotate{background-color: #5fb4f1 !important;}
+
+
+
+.status_full_col_left_left .progress-bar-cusomes{height: 115px; width: 115px; margin: 0;}
+.status_full_col_left_left .progress-bar-cusomes div{    height: 115px;width: 115px;}
+.status_full_col_left_left .progress-bar-cusomes div span{line-height: 92px;height: 92px;width: 92px;left: 11px;top: 11px;}
+.status_full_col_left_left .progress-bar-cusomes .right{    clip: rect(0 50px 115px 0);}
+
+
+ @keyframes 
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}

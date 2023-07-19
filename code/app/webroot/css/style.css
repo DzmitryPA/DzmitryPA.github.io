@@ -1,0 +1,319 @@
+.locater_img {
+    float: left;
+    position: fixed;
+    text-align: center;
+    width: 77%;
+    display: none; z-index: 9;
+}
+.topn{float:left; width:100%; margin-bottom: 10px;}
+.topn_left{float:left; margin-top: 3px; font-size: 18px;}
+.topn_right{float:right;}
+.countrdm{float:left; margin-top: 6px;}
+.topn .pagination{float: right; margin: 0; margin-left: 10px;}
+table th{background: #006ab4; color:#fff;}
+table th a{color:#eee;}
+
+.topn .pagination span{min-width: 30px; height: 30px; border: solid 1px #ddd; display: inline-block; line-height: 28px; text-align: center; padding: 0 5px;}
+.topn .pagination span a{display: block; color:#000;}
+.topn .pagination span:hover{border-color:#444; background: #eee;}
+.topn .pagination span:hover a{color:#000;}
+.topn .pagination span.current{margin-right: 3px; border-color:#444; color:#000; background: #eee;}
+
+section.lstng-section{clear:both; float:left; width: 100%;}
+table.table thead a{width:100%; display: block; vertical-align: middle;}
+table.table thead a {
+    background: url('../img/sort_both.png') no-repeat center right;
+}
+
+table.table thead a.asc {
+    background: url('../img/sort_asc.png') no-repeat center right;
+}
+table.table thead a.desc {
+    background: url('../img/sort_desc.png') no-repeat center right;
+}
+table.table thead input{vertical-align: middle; margin: 0;}
+
+
+.crtdicon i{margin: 3px 3px 0 3px; position: absolute;}
+.crtdicon a{padding-left: 22px;}
+th.crtdicon:after{position: absolute; content:""; bottom:-2px; left:-1px; right:-1px; height: 1px; background: #fff; z-index: 1;}
+.tbl-resp-listing{overflow: auto; clear: both; float:left; width: 100%;}
+.require{color:red;}
+
+.table > thead > tr > th a{color:#fff;}
+.table > thead > tr > th a:hover{color:#ccc;} 
+.btn a{color:#fff;}
+
+
+
+
+.close{opacity:1;}
+
+.cname_loader {
+    display: none;
+    float: right;
+    margin: -32px 6px 0 0;
+}
+.cname_loader img{width:30px;}
+.rest_error {
+    color: #ff0000;
+}
+.cname_result
+{
+   color:#00bd00; float:right;  font-size: 13px;
+}
+
+
+#passstrength {
+    color: red;
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: bold;
+}
+.strong{color: #00ff00;}
+
+#pswd_info {
+position:absolute;
+top: 34px;
+left: 14px;
+max-width:320px;
+padding:15px;
+background:#fefefe; 
+font-size:.875em;
+border-radius:5px;
+box-shadow:0 1px 3px #ccc;
+border:1px solid #ddd;
+display:none;
+z-index: 3;
+}
+#pswd_info::before {
+content: "\25B2";
+position:absolute;
+top:-12px;
+left:20px;
+font-size:14px;
+line-height:14px;
+color:#eee;
+text-shadow:none;
+display:block; z-index: 1;
+}
+#pswd_info:after{content: "\25B2";
+position:absolute;
+top:-14px;
+left:20px;
+font-size:14px;
+line-height:14px;
+color:#999;
+text-shadow:none;
+display:block; }
+#pswd_info h4 {
+    margin:0 0 10px 0; 
+    padding:0;
+    font-weight:normal; font-size: 14px;
+}
+#pswd_info ul{margin: 0; padding: 0;}
+#pswd_info ul li{list-style: none;}
+
+.invalidpass {
+    background:url(../img/invalid.png) no-repeat 0 50%;
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.invalidpass strong{font-family: 'OpenSans-Semibold';}
+.validpass {
+background:url(../img/valid.png) no-repeat 0 50%;
+padding-left:22px;
+line-height:24px;
+color:#3a7d34;
+}
+.step_counts{
+font-size: 18px;
+float: left;
+width: 100%;
+margin-bottom: 10px;
+}
+.help_text{ font-size: 12px;
+color: #999;
+float: left;
+width: 100%;}
+.stkiip{float: right;
+margin-top: 10px;
+margin-bottom: -23px; position: relative; z-index: 1;}
+.stkiip a{text-decoration: underline;}
+.step_abbouts{font-size: 14px;
+/* float: right; */
+display: inline-block;
+/* padding: 10px; */
+margin-left: 10px;
+vertical-align: middle;}
+
+
+/* graph */
+
+.bose_dash_full_contentsmale_prodview {
+    float: left;
+    width: 100%;
+    padding: 27px 19px 22px 23px;
+    min-height: 178px;
+}
+.relative_box_esjad {
+    position: relative;
+    padding-left: 20px;
+    background: #fff;
+    padding: 20px 20px 0px 20px;
+    border: solid 1px #ddd; clear: both;
+}
+#chartdiv:before {
+    content: "(Number of Companies)";
+    color: #23272d;
+    font-size: 14px;
+    position: absolute;
+    bottom: 50%;
+    margin-left: -91px;
+    transform: rotate(-90deg);
+    margin-bottom: 13px;
+}
+/*.my_sales_chart:after {
+    content: "(Days per month)";
+    color: #23272d;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -46px;
+    margin-bottom: 17px;
+}*/
+.amcharts-scrollbar-chart-div {
+    display: none !important;
+}
+.amChartsPeriodSelector.amcharts-period-selector-div, .amChartsLegend.amcharts-legend-div {
+    display: none !important;
+}
+.amChartsPeriodSelector {
+    font-size: 12px;
+    font-family: verdana,helvetica,arial,sans-serif;
+}
+.company_tab{margin-bottom: 10px;}
+.my_sales_chart image[width="38"] {
+    display: none !important;
+}
+a[title="JavaScript charts"] {
+    display: none !important;
+}
+.thumbnail{width: 150px;
+max-height: 150px !important;
+height: 150px; float:left; display: inline; margin-right: 5px; margin-bottom: 5px; position: relative;}
+.thumbnail img{max-width: 100%; max-height: 100%; margin: auto; position: absolute; top:0; right: 0; bottom: 0; left: 0;}
+input[type=file]{height: inherit;padding: 5px 12px;}
+
+
+
+.company_tab span{display: inline-block;
+padding: 4px 10px;
+background: #23272d;
+color: #d2d2d2;
+margin-bottom: 3px;
+cursor: pointer; transition: all 0.1s ease-in-out 0s;}
+.company_tab span:hover, .company_tab span.active{background: #1594d6; color: #fff;}
+
+.admin_st{
+float: left;
+width: 100%;
+font-size: 19px;
+color: #666;
+}
+.chart_loader{position: absolute; top: 50%; margin-top: -50px; right: 0; bottom: 0; left: 0; text-align: center; z-index: 9;}
+.chart_loader img{width:80px;}
+
+.drt span{color:#000; font-weight: 600;}
+.dtpickr_dv{width:10%;}
+.sidebar-collapse .sidebar-menu li a span{margin-left: -5px !important;}
+.ersu_message{padding: 0 10px; padding-top: 10px;}
+.alert{padding: 10px;}
+
+table th.action_dvv{min-width: 155px;}
+.crtdicon{position: relative;}
+table th.sorting_paging{min-width: 120px;}
+
+.drt .thumbnail{    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;width: 100px;
+    height: 100px;
+    margin-left: 10px;}
+.download_link{    display: inline-block;}
+.imgEditSbmtt{float:left; width:150px; position: relative; margin: 0 10px 10px 0;}
+.imgEditSbmtt input[type=submit]{position: absolute;
+right: 0;
+top: 0;
+z-index: 2;
+width: 25px;
+height: 25px;
+background: #ff0000;
+border: 0;
+color: #fff;
+font-weight: 600;
+line-height: 23px;
+text-align: center; outline: nonel;}
+.imgEditSbmtt input[type=submit]:hover{background: #e10000;}
+.thumb-image {
+    float: left;
+    height: 110px;
+    margin: 6px;
+    width: 150px;
+}
+.popup_fomr_rosdfs_left {
+       max-width: none;
+    margin-right: -10px; clear: both;
+}
+.thumb-image {
+    float: left;
+    margin: 2px;
+    width: 90px;
+}
+
+.popup_fomr_rosdfs_col {
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+}
+.popup_fomr_rosdfs_col label {
+    vertical-align: middle;
+    width: auto;
+    margin-right: 5px;
+}
+.popup_fomr_rosdfs_col input {
+    vertical-align: middle; margin: 0;
+}
+.input_sor_boc {
+    float: left;
+    width: 100%;
+}
+select.popup_formtce {
+    line-height: 45px;
+}
+.popup_formtce {
+    float: left;
+    width: 100%;
+    border: solid 1px #cacaca;
+    height: 47px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #444;
+    background: #fff;
+}
+.unit_price{display: inline-block; margin-right: 20px; margin-bottom: 10px;}
+.unit_price label{vertical-align: middle; margin: 0 0 0 5px; padding: 0;}
+.unit_price input{vertical-align: middle; margin: 0; padding: 0;}
+.unit_price em {font-style: normal;}
+.form_row_fhr_cols_radi{display: inline-block; margin-bottom: 10px;}
+.form_row_fhr_cols_radi label{vertical-align: middle; margin: 0 0 0 5px; padding: 0;}
+.form_row_fhr_cols_radi input{vertical-align: middle; margin: 0; padding: 0;}
+.form_row_fhr_cols_radi em {font-style: normal;}
+.unitp{padding-top: 6px;}
+
+.showimages_mul{float:left; width: 100%; margin-top: 10px;}
+.showimages_mul img{height: 80px;}
+.drpdwn_srch{width:20%; vertical-align: top;}
